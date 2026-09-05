@@ -1,2 +1,2 @@
-# CUDA-image-bulr
+# CUDA - greyscale image 
 First project in CUDA - learning purposes 
