@@ -24,6 +24,6 @@ You can either choose to use CPU or GPU.
 The program shows the execution time of the grayscale function that you choose.
 
 ## Results
-CPU converts images to grayscale much faster than GPU due to image buffer allocations and buffer transfers to the device.
+CPU converts images to grayscale much faster than GPU because GPU suffers from overhead - image buffer allocations and buffer transfers to the device.
 
 Besides, the workload is too small for GPU to really shine. 
