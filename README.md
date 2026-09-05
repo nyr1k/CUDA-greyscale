@@ -24,7 +24,7 @@ You can either choose to use CPU or GPU.
 The program shows the execution time of the grayscale function that you choose.
 
 ## Results
-On my laptop CPU requires around 1ms to make a grayscale copy of an image, while GPU needs 170-250ms for the same image.
+On my laptop CPU requires around 1ms to make a grayscale copy of an image, while GPU needs 170-250ms for the same file.
 
-I guess it is because GPU suffers from major overhead such as image buffer allocations and buffer transfers to the device.
+I think it is due to the fact that GPU suffers from major overhead such as image buffer allocations and buffer transfers to the device.
 Besides, the workload is too small for GPU to really shine. 
